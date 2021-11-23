@@ -1,12 +1,16 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-  </div>
+  <h1>Formulaire</h1>
 </template>
 
 <script>
+import TextInput from './components/TextInput.vue'
+import DateInput from './components/DateInput.vue'
+import MsgInput from './components/MsgInput.vue'
+import CheckBoxInput from './components/CheckBoxInput.vue'
+import ButtonInput from './components/ButtonInput.vue'
+
 export default {
-  name: 'HelloWorld',
+  name: 'Formulaire',
   props: {
     msg: String
   }

@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Formulaire from './components/Formulaire.vue'
 
 export default {
   name: 'App',
